@@ -1,15 +1,15 @@
 // Include Libraries
-#define BLYNK_TEMPLATE_ID "TMPL3pOiVHzEa"
-#define BLYNK_TEMPLATE_NAME "crop monitoring"
+#define BLYNK_TEMPLATE_ID "**********" // Enter your BLYNK_TEMPLATE_ID
+#define BLYNK_TEMPLATE_NAME "**********"  // Enter your BLYNK_TEMPLATE_NAME
 
 #include <WiFi.h>
 #include <BlynkSimpleEsp32.h>
 #include <DHT.h>
 
 // Blynk Credentials
-char auth[] = "wHP1AW066dZAw1JvXWwVDaEjr8l-ZKdl";  // Enter Blynk Auth Token
-char ssid[] = "OC";  // Enter your WiFi name
-char pass[] = "12345678";  // Enter your WiFi password
+char auth[] = "************";  // Enter Blynk Auth Token
+char ssid[] = "*****";  // Enter your WiFi name
+char pass[] = "*********";  // Enter your WiFi password
 
 // Sensor Pins
 #define DHTPIN 4         // DHT11 Data Pin
